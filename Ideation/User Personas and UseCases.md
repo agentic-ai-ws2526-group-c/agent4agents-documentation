@@ -25,14 +25,14 @@ Dieser Workflow beschreibt, wie "Agent4Agent" Uwe bei einem einfachen Problem un
 ```mermaid
 graph TD
     A[Uwe öffnet Agent4Agent in einer Webapplikation] --> B[Agent4Agents begrüßt uwe und erklärt funktionalität];
-    B -- ""Beim 1. mal und nach 2 Wochen"" --> C{Agent erkennt Kenntnisstand von Uwe anhand einiger Fragen und speichert das ab};
+    B -- ""Beim 1. Mal und nach 2 Wochen"" --> C{Agent erkennt Kenntnisstand von Uwe anhand einiger Fragen und speichert das ab};
     C --> D[Uwe erklärt sein Problem];
     B --> D;
     D --> E[Agent erkennt dass einfacher RAG Ansatz am besten funktioniert];
     E --- F(Würde auch erkennen, wenn Agentic AI nicht nötig ist);
     E --> G[Agent fordert PDF und erstellt direkt RAG Agent bei DIA Brain];
-    G --> H[Agent empfielt einfachste Plattform um RAG zu nutzen. Und verwendet dabei keine Fachbegriffe];
-    H --> I[Agent bietet an, Uwe bei der Erstellung zu untersützen];
+    G --> H[Agent empfiehlt einfachste Plattform um RAG zu nutzen. Und verwendet dabei keine Fachbegriffe];
+    H --> I[Agent bietet an, Uwe bei der Erstellung zu unterstützen];
     I --> J[Uwe nimmt die Hilfe an und erstellt einen Agent, dabei kann er immer wieder Rückfragen stellen];
     style F fill:#FFDDFD
 ```
@@ -44,12 +44,12 @@ Dieser Workflow zeigt, wie "Agent4Agent" Uwe hilft, wenn ein komplexes Problem e
 ```mermaid
 graph TD
     A[Uwe öffnet Agent4Agent in einer Webapplikation] --> B[Agent4Agents begrüßt uwe und erklärt funktionalität];
-    B -- ""Beim 1. mal und nach 2 Wochen"" --> C{Agent erkennt Kenntnisstand von Uwe anhand einiger Fragen und speichert das ab};
+    B -- ""Beim 1. Mal und nach 2 Wochen"" --> C{Agent erkennt Kenntnisstand von Uwe anhand einiger Fragen und speichert das ab};
     C --> D[Uwe erklärt sein Problem];
     B --> D;
     D --> E[Agent erkennt dass ein Komplexer Ansatz von Nöten ist];
     E --- F(Würde auch erkennen, wenn Agentic AI nicht nötig ist);
-    E --> G[Agent empfielt ein Ticket zu erstellen um den Agent von einem Professionellen Team erstellen zu lassen];
+    E --> G[Agent empfiehlt ein Ticket zu erstellen um den Agent von einem Professionellen Team erstellen zu lassen];
     G --> H[Agent stellt rückfragen zu genauen Anforderungen];
     H --> I[Agent schickt Ticket ab];
     I --> J[Uwe stellt nach einiger Zeit Fragen um den Stand des Tickets abzufragen];
@@ -80,12 +80,12 @@ Dieser Workflow beschreibt, wie "Agent4Agent" Waltraud bei der Erstellung eines 
 ```mermaid
 graph TD
     A[Waltraud öffnet Agent4Agent in einer Webapplikation] --> B[Agent4Agents begrüßt Waltraud und erklärt funktionalität];
-    B -- "Beim 1. mal und nach 2 Wochen" --> C{Agent erkennt Kenntnisstand von Waltraud anhand einiger Fragen und speichert das ab};
+    B -- "Beim 1. Mal und nach 2 Wochen" --> C{Agent erkennt Kenntnisstand von Waltraud anhand einiger Fragen und speichert das ab};
     C --> D[Waltraud fordert dazu auf eine Technologieempfehlung auszusprechen und stellt eine genaue Prozessbeschreibung mit Anforderungen bereit];
     B --> D;
     D --> E[Agent erkennt, dass komplexe Agentenlogik von Nöten ist];
-    E --> F[Agent empfielt NoCode Plattform. Und erklärt Waltraud die Agentenlogik adressatenbezogen];
-    F --> G[Agent bietet an, Waltraud bei der Erstellung zu untersützen];
+    E --> F[Agent empfiehlt NoCode Plattform. Und erklärt Waltraud die Agentenlogik adressatenbezogen];
+    F --> G[Agent bietet an, Waltraud bei der Erstellung zu unterstützen];
     G --> H[Waltraud nimmt die Hilfe an und erstellt einen Agent, dabei kann sie immer wieder Rückfragen stellen];
 ```
 
@@ -115,12 +115,12 @@ Dieser Workflow zeigt, wie "Agent4Agent" Erik bei der Auswahl und Implementierun
 ```mermaid
 graph TD
     A[Erik öffnet Agent4Agent in einer Webapplikation] --> B[Agent4Agents begrüßt Erik und erklärt funktionalität];
-    B -- "Beim 1. mal und nach 2 Wochen" --> C{Agent erkennt Kenntnisstand von Erik anhand einiger Fragen und speichert das ab};
+    B -- "Beim 1. Mal und nach 2 Wochen" --> C{Agent erkennt Kenntnisstand von Erik anhand einiger Fragen und speichert das ab};
     C --> D[Erik fordert dazu auf eine Technologieempfehlung auszusprechen und stellt eine genaue Prozessbeschreibung mit Anforderungen bereit];
     B --> D;
     D --> E[Agent erkennt, dass komplexe Agentenlogik von Nöten ist];
-    E --> F[Agent empfielt Rich Code Framework. Und erklärt Erik die Agentenlogik adressatenbezogen];
-    F --> G[Agent bietet an, Erik bei der Erstellung zu untersützen];
+    E --> F[Agent empfiehlt Rich Code Framework. Und erklärt Erik die Agentenlogik adressatenbezogen];
+    F --> G[Agent bietet an, Erik bei der Erstellung zu unterstützen];
     G --> H[Erik bittet um Links zur Dokumentation des Frameworks];
     H --> I[Agent liefert ihm die Links und steht für weitere Fragen zur Verfügung];
 ```
