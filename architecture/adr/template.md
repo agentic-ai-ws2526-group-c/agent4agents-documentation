@@ -2,6 +2,7 @@
 
 * **Date:** YYYY-MM-DD
 * **Status:** Proposed | Accepted | Deprecated | Superseded by [ADR-XXXX]
+* **Responsible:** [Name or @username]
 
 ## Context
 

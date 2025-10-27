@@ -19,6 +19,7 @@ Architecture Decision Records (ADRs) are documents that capture important archit
    - Replace `ADR-NNNN` with your ADR number
    - Add the current date
    - Set the initial status to "Proposed"
+   - Add the responsible person (name or @username)
    - Complete all sections with relevant information
 4. **Submit for review**: Follow your team's review process before marking the ADR as "Accepted"
 
