@@ -7,7 +7,7 @@
 ### Persona-Beschreibung
 
 - Langjähriger Buchhalter bei Bosch
-- Kennt Prozesse in und auswendig
+- Kennt Prozesse in- und auswendig
 - Technikunaffin
 - Kennt sich überhaupt nicht mit Agentic AI aus
 
@@ -44,15 +44,15 @@ Dieser Workflow zeigt, wie "Agent4Agent" Uwe hilft, wenn ein komplexes Problem e
 ```mermaid
 graph TD
     A[Uwe öffnet Agent4Agent in einer Webapplikation] --> B[Agent4Agents begrüßt Uwe und erklärt Funktionalität];
-    B -- ""Beim 1. Mal und nach 2 Wochen"" --> C{Agent erkennt Kenntnisstand von Uwe anhand einiger Fragen und speichert das ab};
+    B -- ""Beim 1. Mal und nach 2 Wochen"" --> C{Agent erkennt Kenntnisstand von Uwe anhand einiger Fragen und speichert diesen ab};
     C --> D[Uwe erklärt sein Problem];
     B --> D;
     D --> E[Agent erkennt, dass ein Komplexer Ansatz von Nöten ist];
     E --- F(Würde auch erkennen, wenn Agentic AI nicht nötig ist);
-    E --> G[Agent empfiehlt ein Ticket zu erstellen um den Agent von einem professionellen Team erstellen zu lassen];
+    E --> G[Agent empfiehlt ein Ticket zu erstellen, um den Agent von einem professionellen Team erstellen zu lassen];
     G --> H[Agent stellt Rückfragen zu genauen Anforderungen];
     H --> I[Agent schickt Ticket ab];
-    I --> J[Uwe stellt nach einiger Zeit Fragen um den Stand des Tickets abzufragen];
+    I --> J[Uwe stellt nach einiger Zeit Fragen, um den Stand des Tickets abzufragen];
     J --> K[Agent gibt Bescheid, wenn der angefragte Agent fertig ist];
     style F fill:#FFDDFD
 ```
@@ -64,7 +64,7 @@ graph TD
 ### Persona-Beschreibung
 
 - Wirtschaftsinformatikerin bei Bosch
-- Kennt Prozesse in und auswendig
+- Kennt Prozesse in- und auswendig
 - Kennt sich ein bisschen mit NoCode/LowCode Tools aus und besitzt ein wenig technisches Know How
 - Weiß, wie Anforderungen richtig Dokumentiert werden
 
@@ -97,7 +97,7 @@ graph TD
 
 - Erfahrener Entwickler bei Bosch
 - Kennt Probleme seiner Abteilung gut
-- Kann Programmieren und hat überblick über Technologien
+- Kann Programmieren und hat Überblick über Technologien
 - Kennt nicht alle Agentic Frameworks im Detail
 
 ### User Ziele
