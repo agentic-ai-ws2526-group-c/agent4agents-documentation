@@ -24,8 +24,7 @@ Dieser Workflow beschreibt, wie "Agent4Agent" Uwe bei einem einfachen Problem un
 
 ```mermaid
 graph TD
-    A[Uwe öffnet Agent4Agent in einer Webapplikation] --> SC[Security Check User Authentifizierung];
-    SC --> B[Agent4Agents begrüßt Uwe und erklärt Funktionalität];
+    A[Uwe öffnet Agent4Agent in einer Webapplikation] --> B[Agent4Agents begrüßt Uwe und erklärt Funktionalität];
     B -- ""Beim 1. Mal und nach 2 Wochen"" --> C{Agent erkennt Kenntnisstand von Uwe anhand einiger Fragen und speichert diesen ab};
     C --> D[Uwe erklärt sein Problem];
     B --> D;
@@ -44,8 +43,7 @@ Dieser Workflow zeigt, wie "Agent4Agent" Uwe hilft, wenn ein komplexes Problem e
 
 ```mermaid
 graph TD
-    A[Uwe öffnet Agent4Agent in einer Webapplikation] --> SC[Security Check User Authentifizierung];
-    SC --> B[Agent4Agents begrüßt Uwe und erklärt Funktionalität];
+    A[Uwe öffnet Agent4Agent in einer Webapplikation] --> B[Agent4Agents begrüßt Uwe und erklärt Funktionalität];
     B -- ""Beim 1. Mal und nach 2 Wochen"" --> C{Agent erkennt Kenntnisstand von Uwe anhand einiger Fragen und speichert diesen ab};
     C --> D[Uwe erklärt sein Problem];
     B --> D;
@@ -81,8 +79,7 @@ Dieser Workflow beschreibt, wie "Agent4Agent" Waltraud bei der Erstellung eines 
 
 ```mermaid
 graph TD
-    A[Waltraud öffnet Agent4Agent in einer Webapplikation] --> SC[Security Check User Authentifizierung];
-    SC --> B[Agent4Agents begrüßt Waltraud und erklärt Funktionalität];
+    A[Waltraud öffnet Agent4Agent in einer Webapplikation] --> B[Agent4Agents begrüßt Waltraud und erklärt Funktionalität];
     B -- "Beim 1. Mal und nach 2 Wochen" --> C{Agent erkennt Kenntnisstand von Waltraud anhand einiger Fragen und speichert diesen ab};
     C --> D[Waltraud fordert dazu auf eine Technologieempfehlung auszusprechen und stellt eine genaue Prozessbeschreibung mit Anforderungen bereit];
     B --> D;
@@ -117,8 +114,7 @@ Dieser Workflow zeigt, wie "Agent4Agent" Erik bei der Auswahl und Implementierun
 
 ```mermaid
 graph TD
-    A[Erik öffnet Agent4Agent in einer Webapplikation] --> SC[Security Check User Authentifizierung];
-    SC --> B[Agent4Agents begrüßt Erik und erklärt Funktionalität];
+    A[Erik öffnet Agent4Agent in einer Webapplikation] --> B[Agent4Agents begrüßt Erik und erklärt Funktionalität];
     B -- "Beim 1. Mal und nach 2 Wochen" --> C{Agent erkennt Kenntnisstand von Erik anhand einiger Fragen und speichert diesen ab};
     C --> D[Erik fordert dazu auf eine Technologieempfehlung auszusprechen und stellt eine genaue Prozessbeschreibung mit Anforderungen bereit];
     B --> D;
